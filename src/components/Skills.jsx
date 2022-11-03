@@ -38,7 +38,7 @@ function Skills() {
           </div>
           <div className="flex md:flex-row flex-col justify-center items-start gap-3 ">
             {
-                skills.map(s => <Card data={s} key={s.title}/>)
+                skills.map(s => <Card data={s} key={s.title} hFixed/>)
             }
           </div>
       </div>
