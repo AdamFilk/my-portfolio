@@ -1,7 +1,8 @@
 import profile from  "../images/profile.jpeg";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebook,faGithub,faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
-
+import {faUser,faPhone,faEnvelope,faLocationDot} from "@fortawesome/free-solid-svg-icons";
+ 
 function Bio() {
 
   
@@ -20,19 +21,27 @@ function Bio() {
         
             <div className="flex flex-col gap-8 md:justify-start justify-center w-full p-4 md:text-3xl text-xl">
                 <div className="flex gap-3">
-                    <p className="text-green-400 md:w-80">Name:</p>
+                    <p className="text-green-400">
+                        <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
+                    </p>
                     <p>Aung Chan Oo</p>
                 </div>
                 <div className="flex gap-3">
-                    <p className="text-green-400 md:w-80">Phone Number:</p>
+                    <p className="text-green-400">
+                        <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
+                    </p>
                     <p>+95 9765333508</p>
                 </div>
                 <div className="flex gap-3">
-                    <p className="text-green-400 md:w-80">Email:</p>
+                    <p className="text-green-400">
+                        <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+                    </p>
                     <p>aungchanoo.dev@gmail.com</p>
                 </div>
                 <div className="flex gap-3">
-                    <p className="text-green-400 md:w-80">Address:</p>
+                    <p className="text-green-400">
+                        <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon>
+                    </p>
                     <p>Myanmar, Yangon, Dagaon,<br /> U Wisara Housing, Building 9</p>
                 </div>
             </div>
