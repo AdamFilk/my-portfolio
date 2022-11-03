@@ -19,7 +19,7 @@ root.render(
         <Route index element={<Home />} />
       </Route>
     </Routes>
-  </BrowserRouter>,
+  </BrowserRouter>
   </React.StrictMode>
 );
 
