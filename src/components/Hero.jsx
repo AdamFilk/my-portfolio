@@ -20,9 +20,9 @@ function Hero() {
                     <p className="text-xl mb-4 leading-10"> 
                         I'm a software developer. I develop Web Applications, Front-end Web Development, Back-end Development & API development for Mobile Development.
                     </p>
-                    <button className="bg-green-400 p-4 text-xl text-white hover:bg-white border-green-400 hover:text-green-400 border-2 font-medium">
-                        Get My CV
-                    </button>
+                    <a href="mailto:aungchanoo.dev@gmail.com" className="bg-green-400 p-4 text-xl text-white hover:bg-white border-green-400 hover:text-green-400 border-2 font-medium">
+                        Contact Me Now 
+                    </a>
                 </div>
             </div>
             <div className="w-3/4 pt-8 md:block hidden">

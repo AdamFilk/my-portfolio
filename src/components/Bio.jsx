@@ -13,9 +13,9 @@ function Bio() {
             <div className="w-full flex flex-col justify-start items-end p-8 md:p-0">
                 <img src={profile} alt="profile" className="md:w-3/4 h-auto max-w-full rounded-2xl"/>
                 <div className="flex justify-start items-center gap-4 mt-4">
-                    <FontAwesomeIcon icon={faFacebook} className="text-5xl text-indigo-600"></FontAwesomeIcon>
-                    <FontAwesomeIcon icon={faGithub} className="text-5xl text-black"></FontAwesomeIcon>
-                    <FontAwesomeIcon icon={faLinkedinIn} className="text-4xl bg-blue-400 p-3 text-white"></FontAwesomeIcon>
+                    <a href="https://www.facebook.com/aungchanoo9800/"><FontAwesomeIcon icon={faFacebook} className="text-5xl text-indigo-600"></FontAwesomeIcon></a>
+                    <a href="https://github.com/AdamFilk"><FontAwesomeIcon icon={faGithub} className="text-5xl text-black"></FontAwesomeIcon></a>
+                    <a href="https://www.linkedin.com/in/aung-chan-o-868983152/"><FontAwesomeIcon icon={faLinkedinIn} className="text-4xl bg-blue-400 p-3 text-white"></FontAwesomeIcon></a>
                 </div>
             </div>
         
